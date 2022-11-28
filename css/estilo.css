@@ -1,0 +1,105 @@
+﻿header{
+    background-color: #D97E85;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+    height: stretch;
+}
+
+section {
+    height: max-content;
+}
+
+nav {
+    background: #D97E85;
+    padding: 20px;
+    height: max-content;
+    position: absolute;
+}
+
+label {
+    display: block;
+    text-align: right;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-align: right;
+}
+
+body {
+    background-image: url("Background.jpg");
+    no-repeat;
+    center;
+    fixed;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a9a9a9;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+    position: inherit;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+.active {
+    background-color: #DE929E;
+}
+
+.sabugo {
+    display: table-row;
+}
+
+.arealogin {
+    display: block;
+    text-align: center;
+}
+
+.titulologin {
+    display: table-cell;
+    text-align: left;
+}
+
+.input-field {
+    display: table-cell;
+    align-self: inherit;
+}
+
+.registro {
+    background-color: #D97E85;
+    color: whitesmoke;
+}
